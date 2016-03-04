@@ -1,5 +1,17 @@
 <% provide(:title,"Home") %>
-<h1>Sample App</h1>
-<p>
-  This is the home page
-</p>
+
+
+<div class="row">
+<div class="col s8 offset-s2">
+  <div class="card">
+    <div class="card-image">
+      <%= image_tag 'home.jpg' %>
+      <span class="card-title">Hello I am tweak</span>
+    </div>
+    <div class="card-action">
+      <%= link_to "Login" ,"#" , class: "green-text waves-effect waves-teal btn-flat" %>
+      <%= link_to "Sign up Now!!",signup_path,class: "right blue-text waves-effect waves-teal btn-flat" %>
+    </div>
+  </div>
+</div>
+</div>
