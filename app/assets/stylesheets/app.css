@@ -1,0 +1,16 @@
+/*.gravator{
+	height: 150px;
+	width: 150px;
+}*/
+
+#username{
+	margin-bottom: 20px;
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+	margin-bottom: 30px;
+}
